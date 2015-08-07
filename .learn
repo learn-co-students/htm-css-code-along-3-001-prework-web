@@ -1,14 +1,10 @@
-tags:
-  - typography
-  - images
-  - links
-  - iframes
-  - forms
-  - tables
-  - media
-  - responsive
 languages:
-  - html
   - css
-  - less
-  - javascript
+tags:
+  - css
+  - style
+  - selectors
+  - syntax
+type:
+  - code along
+resources: 0
