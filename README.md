@@ -3,7 +3,7 @@
 ## Code Along Exercise 3 ~ 38min
 
 1. Make sure you are on the master branch ♥ `git checkout master`
-2. To get the most up to date starting code used for this exercise create a new remote called upstream ♥ `git remote add upstream git@github.com:learn-co-students/fe-exceptional-realty-<insert your github team name here>.git` (example batch: fe-0415 or ruby-0515).
+2. To get the most up to date starting code used for this exercise create a new remote called upstream ♥ `git remote add upstream git@github.com:learn-co-students/htm-css-code-along-3-<insert your github team name here>.git` (example batch: fe-0415 or ruby-0515).
 3. Then pull down changes ♥ `git pull -f upstream master` ignoring any conflicts.
 Next, get all the tags ♥ `git fetch upstream --tags`
 Then in terminal type ♥ `git reset --hard step-2`  
