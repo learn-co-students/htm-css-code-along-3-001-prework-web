@@ -1,18 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Exceptional Realty Group - Luxury Homes - Contact</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>Exceptional Realty Group - Luxury Homes - Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <style src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></style>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
 
-  <h1>Exceptional</h1>
-  <h2>Realty Group</h2>
+    <header>
+      
+      <div id="logo">
+        <h1>Exceptional</h1>
+        <h2>Realty group</h2>
+      </div>
 
-  <!-- links -->
-  <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="new-properties.html">New Properties</a>
+      <a href="real-estate-listings.html">Listings</a>
+      <a href="market-report.html">Market Report</a>
+      <a href="contact.html">Contact</a>
+      <a href="http://hud.gov" target="_blank">H.U.D.</a>
+    </nav>
 
-  <h3>Contact</h3>
-  
-</body>
+    </header>
+
+    <h3>Contact</h3>
+
+    <section id="map">
+      <!-- Map -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.3811883747007!2d-73.94348829298222!3d40.67845892552096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C+NY%2C+USA!5e0!3m2!1sen!2s!4v1449686142677" width="420" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+
+
+    <section id="contact-form">
+    <!-- Contact Form -->
+      <form action="#" method="post">
+        <label for="fullname">Name</label>
+        <input id="fullname" type="text" name="fullname" placeholder="Your Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Your Email" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone" placeholder="Your Phone(Optional)">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="10"></textarea>
+
+        <input type="submit" value="Send">
+        <br>
+        <br>
+        <br>
+      </form>
+    </section>
+
+    <footer>
+      &copy; 2015 Exceptional Realty. All Rights Reserved.
+    </footer>
+
+  </body>
 </html>
