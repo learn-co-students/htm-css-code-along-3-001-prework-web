@@ -1,6 +1,6 @@
 ## Overview
 
-In this code along exercise we will be adding style to our pages using external CSS.
+In this code along we will be adding a PHP mailer that will allow the contact form to post an email to the desired email address.
 
 ## Steps
 
@@ -9,6 +9,8 @@ In this code along exercise we will be adding style to our pages using external 
 3. cd into the folder for this lab.
 4. Code along with the included video below.
 
-## Code Along Exercise 3 ~ 38min
+## Code Along Exercise 17 ~ 21min
 
-<iframe width="100%" height="720" src="//www.youtube.com/embed/aA8k-hK8qzg?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen></iframe></iframe>
+Here is a [link to a github gist with the code for the PHP mailer](https://gist.github.com/jongrover/10486208). Here is a [link to the live published web site](http://jonathangrover.com/teaching/students/exceptional-realty/contact.php). You can [download MAMP here](https://www.mamp.info/en/) or [WAMP here](http://www.wampserver.com/en/).
+
+<iframe width="100%" height="720" src="//www.youtube.com/embed/S70RnoSFaBE" frameborder="0" allowfullscreen></iframe>
