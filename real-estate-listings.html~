@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Exceptional Realty Group - Luxury Homes - Contact</title>
+  <title>Exceptional Realty Group - Luxury Homes - Listings</title>
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -19,27 +19,51 @@
     </nav>
   </header>
 
-  <h3>Contact</h3>
-
   <section>
-    <!-- Map -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6049.760881033193!2d-73.99517294629514!3d40.69863072747073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a47df06b185%3A0xc889234bc07c42ee!2sBrooklyn+Heights!5e0!3m2!1sen!2sus!4v1393612605402" width="425" height="350" frameborder="0" style="border:0"></iframe>
+    <h3>Condos</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, perspiciatis atque amet repudiandae sed unde facilis tempora aspernatur. Repellendus, beatae eaque velit dolores incidunt reprehenderit officiis consectetur impedit numquam ad.</p>
   </section>
 
+  <section>
+    <h3>Townhomes</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, perspiciatis atque amet repudiandae sed unde facilis tempora aspernatur. Repellendus, beatae eaque velit dolores incidunt reprehenderit officiis consectetur impedit numquam ad.</p>
+  </section>
 
   <section>
-    <!-- Contact Form -->
-    <form action="#" method="post">
-      <label for="fullname">Name</label>
-      <input type="text" id="fullname" name="fullname" placeholder="your name" required>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="your email" required>
-      <label for="phone">Phone</label>
-      <input type="tel" id="phone" name="phone" placeholder="your phone (optional)">
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="10"></textarea>
-      <input type="submit" value="send">
-    </form>
+    <h3>Co-Ops</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, perspiciatis atque amet repudiandae sed unde facilis tempora aspernatur. Repellendus, beatae eaque velit dolores incidunt reprehenderit officiis consectetur impedit numquam ad.</p>
+  </section>
+
+  <h2>Featured Listings</h2>
+
+  <section>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, molestias, quaerat in commodi autem itaque officia laboriosam fugiat perferendis et assumenda cum aliquid. Officia, officiis ullam deleniti est illum dignissimos!</p>
+  </section>
+  
+  <section>
+    <h3>Property Archive</h3>
+    <h4>2014</h4>
+    <!-- unordered list -->
+    <ul>
+      <li>Dec</li>
+      <li>Nov</li>
+      <li>Oct
+        <ul>
+          <li>17th</li>
+          <li>18th</li>
+        </ul>
+      </li>
+    </ul>
+  <section>
+
+  <section>
+    <h3>Popular Listings</h3>
+    <!-- ordered list -->
+    <ol>
+      <li>348 Stockton St.</li>
+      <li>3742A Belevadere Rd.</li>
+      <li>41 Cleaton Ave.</li>
+    </ol>
   </section>
 
   <section id="details">
@@ -79,6 +103,6 @@
     <footer>
       &copy; 2014 Exceptional Realty. All Rights Reserved.
     </footer>
-  
+
 </body>
 </html>
