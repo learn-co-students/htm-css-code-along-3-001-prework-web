@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Clicker+Script);
+/*
+CSS Document
+*/
+p{
+font-size: 1em;
+line-height: 1.5em
+}
+figcaption{
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: font-family: 'Clicker Script', cursive;
+  color: blue;
+  text-align: right;
+}
+
+.milk_text{
+  font:bold 2.6em 'Clicker Script', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+#logo{
+  background-color: aqua;
+}
+#logo h1{
+  font-family: "Clicker Script"
+}
+
+
+
+
+
+
+
+
+
+
