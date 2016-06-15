@@ -1,0 +1,28 @@
+p{
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+figcaption{
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;
+  color: grey;
+  text-align: right;
+}
+
+.milk-text{
+  font: bold 2.6em 'Elsie Swash caps', cursive;
+  color: whilte;
+}
+
+#logo{
+  background-color: aqua;
+}
+#logo h1{
+  font-family: cursive;
+}
+#logo h2{
+  font-family: Impact;
+}
