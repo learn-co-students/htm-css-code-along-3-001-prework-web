@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps:400,900);
+
+
+/*This is a comment*/
+
+/*CSS Syntax:
+
+selector {
+  property: value;
+  property: value;
+}
+
+*/
+
+/*Type Selector*/
+
+p {
+  font-size 16px;
+    /* px | same across all browsers */
+    /* pts | not same (so use px) */
+    /* % | relative dependant on element and parent elements */
+    /* em | 1em = 16px by default - this can be used for responsive sizes*/
+  line-height:  1.5em;
+}
+
+
+figcaption {
+/*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: 'Elsie Swash Caps', cursive;*/
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+/*font property can describe weight, size, height, and font family */
+  color: #777;
+  text-align: right;
+}
+
+/*Class selector (applied to as many elements as you like) */
+
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: #FFF;
+  text-shadow: 0 2px 3px #000;
+}
+
+/*ID selector (apply to only one element per page)*/
+
+#logo {
+  background: #0FF;
+}
+
+/*Descendant selector*/
+
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+#details a:link, #details a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: #000;
+  border-bottom: solid #000 1px;
+}
+
+
+
